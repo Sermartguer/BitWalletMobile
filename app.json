@@ -1,0 +1,30 @@
+{
+    "expo": {
+        "name": "BitWallet",
+        "description": "BitWallet mobile app",
+        "privacy": "public",
+        "sdkVersion": "22.0.0",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "scheme": "qr",
+        "primaryColor": "#37474F",
+        "icon": "./assets/icons/app-icon.png",
+        "loading": {
+            "icon": "./assets/icons/loading-icon.png",
+            "hideExponentText": true,
+            "backgroundColor": "#ECEFF1"
+        },
+        "packagerOpts": {
+            "assetExts": ["ttf"]
+        },
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.bitwallet.bitwallet"
+        },
+        "android": {
+            "package": "com.bitwallet.bitwallet",
+            "versionCode": 2,
+            "permissions": ["CAMERA", "MANAGE_DOCUMENTS", "READ_EXTERNAL_STORAGE", "READ_INTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"]
+        }
+    }
+}
